@@ -20,7 +20,7 @@ import './globals.css';
            <main className="main-content">{children}</main>
            <footer className="footer">
              <p>
-"Learning is the bridge between curiosity and mastery, where every step forward reveals the infinite potential within you."</p>
+             &quot;Learning is the bridge between curiosity and mastery, where every step forward reveals the infinite potential within you.  &quot;</p>
            </footer>
          </div>
        </body>
