@@ -1,12 +1,21 @@
+/*These are Tailwind CSS directives that import layers of the Tailwind's framework
+  They are used in globals.css to include prebuilt styles. */
+
+/* Reset styles - applies a set of base rules to elements to ensure consistency*/
 @tailwind base;
+/* Includes prebuilt styles - buttons, forms, modals*/
 @tailwind components;
+/* Inlcudes classes that can be directly used in HTML*/
 @tailwind utilities;
 
+
+/* root element of doc - equivalent to <html> element */
 :root {
   --background: #ffffff;
   --foreground: #171717;
 }
 
+/* detects whether the user is in dark mode, inverts the colors */
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
@@ -14,6 +23,7 @@
   }
 }
 
+/* targets the <body> elements, applies global styles */
 body {
   color: var(--foreground);
   background: var(--background);

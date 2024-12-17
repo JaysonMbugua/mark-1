@@ -1,3 +1,5 @@
+/* ESLint configuration for code linting and formatting. */
+/* Used for code analysis, to ensure consistent styling */
 import { dirname } from "path";
 import { fileURLToPath } from "url";
 import { FlatCompat } from "@eslint/eslintrc";

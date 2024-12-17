@@ -1,0 +1,56 @@
+git clone <link>
+    This clones a remote repo to the local machine. It downloads the history, branches, and files.
+
+git branch <branch-name>
+    Creates a new branch. Doesn’t switch.
+
+git push -u <remote> <branch-name>
+    This pushes the local branch to the branch in the remote repo. Is set as the upstream branch for future push/pulls.
+
+git branch
+    Lists all branches
+
+git branch -d <branch-name>
+    Deletes specified branch locally. Only deletes branches that have been merged - unless you force delete. (-D)
+
+git checkout <branch-name>
+    Switches to specified branch.
+
+git checkout -b <branch-name>
+    Creates a new branch and switches to it immediately
+
+git status
+    Shows status of working directory and staging area (tracked files)
+
+git add <file>
+    Stages a specific file for commit.
+
+git add -a or git add .
+    Stages all modified and untracked files
+
+git commit -m “commit message”
+    Records staged changes with a message to go with the commit
+
+git push <remote> <branch-name>
+	Pushes changes to remote branch
+
+git push –set-upstream <remote> <branch-name>
+    Sets the upstream branch while pushing
+
+git pull <remote>
+    Fetches and merges changes from remote repo into current branch. Combines git fetch and git merge
+
+git revert <commit hash code>
+    Creates a new commit that removes the changes of previous commit. A way of undoing in a reversible manner.
+
+git fetch
+    Fetches changes from remote branch but does not merge them. You use this to update your local copy of remote branches
+
+git merge <branch-name>
+	Merges the specified branch into your current branch
+
+git stash
+    Saves changes in your work directory without committing them. (git stash pop applies the changes back)
+
+git fork
+	Copies repo for another user (helpful with authentication issues)

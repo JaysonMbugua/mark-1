@@ -1,3 +1,5 @@
+//locks the exact versions of dependencies and sub-dependencies installed in the project to ensure consistency across environments.
+//without it we lack consistency, i.e two dvelopers having different versions on their machine
 {
   "name": "my-app",
   "version": "0.1.0",

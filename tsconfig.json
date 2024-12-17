@@ -1,3 +1,4 @@
+//Typescript configuration file used to define settings and options
 {
   "compilerOptions": {
     "target": "ES2017",

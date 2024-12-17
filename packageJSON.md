@@ -1,3 +1,4 @@
+//important metadata and instructions for dependencies, scripts, and project config
 {
   "name": "my-app",
   "version": "0.1.0",
@@ -8,11 +9,13 @@
     "start": "next start",
     "lint": "next lint"
   },
+  //libraries needed in order to run
   "dependencies": {
     "next": "15.1.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
+  //libraries needed during dev
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "@types/node": "^20",
